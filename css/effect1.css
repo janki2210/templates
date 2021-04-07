@@ -9,7 +9,7 @@
     float: left;
     background-color: saddlebrown;
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .box img{
     width:100%;
@@ -28,7 +28,7 @@
 .box:hover .iconbar{
     transition: 2s;
     right:10%;
-    left: 0%;
+    left: 0;
 }
 .box:hover img{
     /* width: 150%; */
@@ -36,8 +36,22 @@
     transition: 2s;
     left: 0;
 }
+.i{
+    /* padding-left:5px; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    font-size: 20px;
+    float: left;
+    /* padding-left: 10px; */
+    /* padding-top: 10px; */
+    /* padding-bottom:10px; */
+    /* padding-right: 10px; */
+    margin-left:10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
 .box h1{
-    /* width:50%; */
     font-size: 15px;
     box-sizing: border-box;
     position: absolute;
@@ -48,9 +62,22 @@
     border-left: none;
     border-right: none;
 }
+.box h1::before{
+    content: '';
+    width: 50%;
+    height: 5px;
+    box-sizing: border-box;
+    top: 100%;
+    float: right;
+    position: absolute;
+    border: 2px solid red;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
 .box h1::after{
     content: '';
-    width: 75%;
+    width: 50%;
     height: 5px;
     box-sizing: border-box;
     top: 100%;
@@ -78,7 +105,7 @@
 .box1 .iconbar{
     width: 100%;
     height: 10%;
-    background-color:darkblue;
+    background-color: slateblue;
     position: absolute;
     float: left;
     bottom:-10%;
@@ -102,7 +129,7 @@
     float: left;
     background-color: saddlebrown;
     position: relative;
-    
+
     overflow: hidden;
 }
 .box2 img{
@@ -112,7 +139,7 @@
 .box2 .iconbar{
     width: 100%;
     height: 10%;
-    background-color:darkblue;
+    background-color: slateblue;
     position: absolute;
     float: left;
     bottom:0;
@@ -129,39 +156,4 @@
     height: 310px;
     transition: 2s;
     left: 0;
-}
-.box3{
-    width: 300px;
-    height: 300px;
-    float: left;
-    margin: 20px 20px;
-    box-sizing: border-box;
-    background-color: red;
-    position: relative;
-    overflow: hidden;
-}
-.box3 img{
-    width: 100%;
-    height: 300px;
-}
-.box3 .iconbar{
-    background-color: red;
-    width: 100%;
-    height:10%;
-    position:absolute;
-    /* left:-100%; */
-    /* right:10%; */
-    /* top: 10%; */
-    right: -100%;
-    bottom:-100%;
-}
-.box3:hover .iconbar{
-    transition: 1s;
-    left: 0;
-    /* top: 0; */
-    bottom:0;
-}
-.box3:hover .img{
-    transition: 1s;
-    left:0;
 }

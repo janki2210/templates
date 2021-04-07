@@ -17,6 +17,9 @@
 .bg-black{
     background-color: black;
 }
+.bg-lightgrey{
+    background-color: lightgrey;
+}
 .container{
     width: 80%;
     margin: auto;
@@ -52,6 +55,7 @@
     bottom: -23px;
     width: 40px;
     height: 28px;
+    color: black;
     text-align: center;
     padding: 10px 5px;
     border-radius: 50%;
@@ -62,20 +66,22 @@
     /* height: 50px; */
     padding: 0px 10px;
     /* float: left; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .servicebox-title button{
     width: 100px;
     height: 30px;
     /* float: left; */
     margin: 10px;
-    padding:0px 10px;
+    font-size: 10px;
+    /* padding:0px 10px; */
     text-align: center;
     color: white;
     background-color: black;
+    border: none;
 }
 .heading{
-    font-size: 11px;
+    font-size: 12px;
     /* float: left; */
     text-align: left;
     padding: 0px 10px;
@@ -88,7 +94,7 @@
 }
 .paragraph{
     text-align:left;
-    font-size: 15px;
+    font-size: 14px;
     /* float: left; */
     text-align: left;
     padding:10px 10px;
@@ -98,7 +104,7 @@
     /* float: left; */
     overflow: auto;
     padding:5px 5px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-sizing: border-box;
 }
 .servicebox-footer img{

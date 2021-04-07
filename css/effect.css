@@ -58,6 +58,7 @@
 .box2{
     width: 300px;
     height: 300px;
+    background-image: url('../img/apple-mac-hd-wallpaper-34.jpg');
     background-color: blueviolet;
     border: 2px solid blue;
     /* margin: auto; */
@@ -79,6 +80,20 @@
 }
 .box2:hover::before{
     bottom:0;
+}
+.box2::after{
+    content:'';
+    width: 300px;
+    height:300px;
+    position: absolute;
+    top: 50%;
+    transition: 1s;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    background-color: rgba(165, 42, 42, 0.404);
+}
+.box2:hover::after{
+    top:0;
 }
 .box3{
     width: 300px;
