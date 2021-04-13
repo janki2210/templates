@@ -17,8 +17,11 @@
 .bg-black{
     background-color: black;
 }
-.bg-lightgrey{
-    background-color: lightgrey;
+.bg1{
+    background-color:#d3d3d385;
+}
+.bg{
+    background-color: #205167;
 }
 .container{
     width: 80%;
@@ -31,7 +34,7 @@
 }
 .col4{
     width: 33.333%;
-    height: 200px;
+    /* height: 200px; */
     float: left;
     /* padding: 0 10px; */
     box-sizing: border-box;
@@ -55,6 +58,8 @@
     bottom: -23px;
     width: 40px;
     height: 28px;
+    line-height: 28px;
+    font-weight: bold;
     color: black;
     text-align: center;
     padding: 10px 5px;
@@ -77,14 +82,15 @@
     /* padding:0px 10px; */
     text-align: center;
     color: white;
-    background-color: black;
+    background-color:#205167;
     border: none;
 }
 .heading{
     font-size: 12px;
     /* float: left; */
     text-align: left;
-    padding: 0px 10px;
+    padding: 5px 10px;
+    color: #000000cc;
 }
 .price2{
     color: orange;
@@ -98,33 +104,51 @@
     /* float: left; */
     text-align: left;
     padding:10px 10px;
+    line-height: 20px;
+    color: #000000cc;
 }
 .servicebox-footer{
     /* width: 100%; */
     /* float: left; */
     overflow: auto;
-    padding:5px 5px;
+    padding: 5px 10px;
+    /* border: 6px solid red; */
+    /* padding:5px 5px; */
     /* border: 2px solid red; */
     box-sizing: border-box;
 }
 .servicebox-footer img{
     width: 43px;
     height: 37px;
+    padding: 0 10px;
     /* padding: 10px 10px; */
     border-radius: 50%;
     text-align:center;
-    /* border: 1px solid royalblue; */
-    /* float: left; */
+    /* background-color: white; */
+    /* transition: 1s; */
+    /* border: 6px solid royalblue; */
 }
+.servicebox-footer a{
+    /* color: #004880; */
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    font-size: 15px;
+}
+/* .servicebox:hover .servicebox-footer img{ */
+   /* border: 6px solid yellow;  */
+/* } */
 .hearticon{
     float: right;
     text-align: right;
-    padding: 5px 10px;
+    padding: 5px 5px;
 }
 .usericon{
     float: right;
     text-align:right;
-    padding: 5px 10px;
+    padding: 5px 5px;
 }
 
     
