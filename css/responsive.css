@@ -38,10 +38,9 @@ header button{
     display: none;
     float: right;
 }
-header button span{
+header button i{
     width: 100%;
     height: 4px;
-    background-color: tomato;
     margin: 10px 0;
     display: block;
 }
@@ -110,8 +109,8 @@ header nav ul li a{
        width: 100%;
    }
    header button{
-       width: 50px;
-       height: 50px;
+       width: 40px;
+       height: 40px;
        display: inline-block;
        padding-bottom: 20px;
    }
