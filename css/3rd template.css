@@ -154,24 +154,27 @@
     font-size: 20px;
     color:#000000a6;
 }
-.p{
+.h4{
     font-size: 15px;
+}
+.p{
+    font-size: 10px;
 }
 .course-footer{
     clear: both;
-    font-size: 15px;
+    /* font-size: 15px; */
+    padding: 10px;
     /* text-align: right; */
-    padding: 20px 5px;
+    /* padding: 20px 5px; */
     border-left: 2px solid lightgray;
     border-right: 2px solid lightgray;
     border-bottom:2px solid lightgray; ;
     /* border: none; */
 }
 .course-footer button{
-    /* padding: 0px 10px; */
-    margin: 0 10px;
-    height: 30px;
-    width: 70px;
+    margin: 0 5px;
+    height: 25px;
+    width: 50px;
     float: left;
     border: none;
     color: white;
@@ -187,14 +190,20 @@
 }
 .staricon{
     float: right;
-    padding: 0px 5px;
+    padding:5px;
     text-align: right;
-    font-size: 13px;
+    font-size: 8px;
     color:orange;
 }
 @media screen and (max-width:427px) {
     .col4{
         width: 100%;
+        margin: 20px 0;
+    }
+}
+@media screen and (max-width:768px) {
+    .col4{
+        width:100%;
         margin: 20px 0;
     }
 }

@@ -86,10 +86,10 @@
     border: none;
 }
 .heading{
-    font-size: 12px;
+    font-size: 10px;
     /* float: left; */
     text-align: left;
-    padding: 5px 10px;
+    padding: 5px;
     color: #000000cc;
 }
 .price2{
@@ -108,48 +108,46 @@
     color: #000000cc;
 }
 .servicebox-footer{
-    /* width: 100%; */
-    /* float: left; */
     overflow: auto;
-    padding: 5px 10px;
-    /* border: 6px solid red; */
-    /* padding:5px 5px; */
-    /* border: 2px solid red; */
+    padding:5px;
     box-sizing: border-box;
 }
 .servicebox-footer img{
-    width: 43px;
+    width: 30px;
     height: 37px;
     padding: 0 10px;
-    /* padding: 10px 10px; */
     border-radius: 50%;
     text-align:center;
-    /* background-color: white; */
-    /* transition: 1s; */
-    /* border: 6px solid royalblue; */
 }
 .servicebox-footer a{
-    /* color: #004880; */
     color: black;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
     position: absolute;
-    font-size: 15px;
+    font-size: 13px;
 }
-/* .servicebox:hover .servicebox-footer img{ */
-   /* border: 6px solid yellow;  */
-/* } */
 .hearticon{
     float: right;
     text-align: right;
-    padding: 5px 5px;
+    padding: 5px 0px;
 }
 .usericon{
     float: right;
     text-align:right;
-    padding: 5px 5px;
+    padding: 5px 3px;
 }
-
+@media screen and (max-width:427px) {
+    .col4{
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+@media screen and (max-width:768px){
+    .col4{
+        width: 100%;
+        margin: 20px 0;
+    }
+}
     
 
